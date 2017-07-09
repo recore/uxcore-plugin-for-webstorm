@@ -1,0 +1,2262 @@
+<templateSet group="UXCore">
+
+    <template name="uxcore-album"
+              value="&lt;Album&#10;    width=&quot;$width$&quot; &#10;    height=&quot;$height$&quot; &#10;    thumbPlacement=&quot;$thumbPlacement$&quot; &#10;    thumbBackground=&quot;$thumbBackground$&quot; &#10;    enableThumbs={$enableThumbs$} &#10;    enableKeyBoardControl &#10;    showButton={$showButton$}&#10;&gt;&#10;    $END$&#10;&lt;/Album&gt;&#10;"
+              description="UXCore Album" toReformat="true" toShortenFQNames="true">
+
+        <variable name="width" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="height" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="thumbPlacement" expression="" defaultValue="&quot;right&quot;" alwaysStopAt="true"/>
+        <variable name="thumbBackground" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true"/>
+        <variable name="enableThumbs" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="showButton" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-album-photo"
+              value="&lt;Album.Photo&#10;    src=&quot;$src$&quot;&#10;/&gt;&#10;"
+              description="UXCore Album.Photo" toReformat="true" toShortenFQNames="true">
+
+        <variable name="src" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-alert"
+              value="&lt;Alert&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    iconPrefixCls=&quot;$iconPrefixCls$&quot; &#10;    type=&quot;$type$&quot; &#10;    onClose={} &#10;    hasContainer={$hasContainer$} &#10;    size=&quot;$size$&quot;&#10;/&gt;&#10;"
+              description="UXCore Alert" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-alert&quot;" alwaysStopAt="true"/>
+        <variable name="iconPrefixCls" expression="" defaultValue="&quot;kuma-icon&quot;" alwaysStopAt="true"/>
+        <variable name="type" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true"/>
+        <variable name="hasContainer" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="size" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-animate"
+              value="&lt;Animate&#10;    animation={$animation$} &#10;    component=&quot;$component$&quot; &#10;    transitionEnter &#10;    transitionLeave &#10;    transitionAppear={$transitionAppear$} &#10;    onEnd={} &#10;    onEnter={} &#10;    onLeave={} &#10;    onAppear={}&#10;/&gt;&#10;"
+              description="UXCore Animate" toReformat="true" toShortenFQNames="true">
+
+        <variable name="animation" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="component" expression="" defaultValue="&quot;span&quot;" alwaysStopAt="true"/>
+        <variable name="transitionAppear" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-badge"
+              value="&lt;Badge&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    count={} &#10;    dot={$dot$} &#10;    overflowCount={$overflowCount$} &#10;    text={}&#10;&gt;&#10;    $END$&#10;&lt;/Badge&gt;&#10;"
+              description="UXCore Badge" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-badge&quot;" alwaysStopAt="true"/>
+        <variable name="dot" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="overflowCount" expression="" defaultValue="&quot;99&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-button"
+              value="&lt;Button&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    size=&quot;$size$&quot; &#10;    type=&quot;$type$&quot; &#10;    disabled={$disabled$} &#10;    className=&quot;$className$&quot; &#10;    htmlType=&quot;$htmlType$&quot; &#10;    loading={$loading$} &#10;    ghost={$ghost$}&#10;&gt;&#10;    Button&#10;&lt;/Button&gt;&#10;"
+              description="UXCore Button" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-button&quot;" alwaysStopAt="true"/>
+        <variable name="size" expression="" defaultValue="&quot;medium&quot;" alwaysStopAt="true"/>
+        <variable name="type" expression="" defaultValue="&quot;primary&quot;" alwaysStopAt="true"/>
+        <variable name="disabled" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="htmlType" expression="" defaultValue="&quot;button&quot;" alwaysStopAt="true"/>
+        <variable name="loading" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="ghost" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-button-group"
+              value="&lt;ButtonGroup&gt;&#10;    $END$&#10;&lt;/ButtonGroup&gt;&#10;"
+              description="UXCore ButtonGroup" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-calendar"
+              value="&lt;Calendar&#10;    placeholder=&quot;$placeholder$&quot; &#10;    onSelect={} &#10;    locale=&quot;$locale$&quot; &#10;    align={$align$} &#10;    showSecond &#10;    showHour &#10;    showDateInput &#10;    hasTrigger &#10;    transitionName=&quot;$transitionName$&quot;&#10;/&gt;&#10;"
+              description="UXCore Calendar" toReformat="true" toShortenFQNames="true">
+
+        <variable name="placeholder" expression="" defaultValue="&quot;请选择日期&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="align" expression="" defaultValue="&quot;{&quot;offset&quot;:[0,0]}&quot;" alwaysStopAt="true"/>
+        <variable name="transitionName" expression="" defaultValue="&quot;calendarSlideUp&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-calendar-panel"
+              value="&lt;CalendarPanel&#10;    locale={$locale$} &#10;    style={$style$} &#10;    visible &#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    className=&quot;$className$&quot; &#10;    onSelect={} &#10;    onChange={} &#10;    onClear={} &#10;    renderFooter={} &#10;    renderSidebar={} &#10;    onKeyDown={} &#10;    showToday &#10;    showDateInput &#10;    timePicker={} &#10;    onOk={}&#10;/&gt;&#10;"
+              description="UXCore CalendarPanel" toReformat="true" toShortenFQNames="true">
+
+        <variable name="locale" expression="" defaultValue="&quot;{&quot;today&quot;:&quot;Today&quot;,&quot;now&quot;:&quot;Now&quot;,&quot;backToToday&quot;:&quot;Back to today&quot;,&quot;ok&quot;:&quot;Ok&quot;,&quot;clear&quot;:&quot;Clear&quot;,&quot;month&quot;:&quot;Month&quot;,&quot;year&quot;:&quot;Year&quot;,&quot;timeSelect&quot;:&quot;Select time&quot;,&quot;dateSelect&quot;:&quot;Select date&quot;,&quot;monthSelect&quot;:&quot;Choose a month&quot;,&quot;yearSelect&quot;:&quot;Choose a year&quot;,&quot;decadeSelect&quot;:&quot;Choose a decade&quot;,&quot;yearFormat&quot;:&quot;YYYY&quot;,&quot;dateFormat&quot;:&quot;M/D/YYYY&quot;,&quot;dayFormat&quot;:&quot;D&quot;,&quot;dateTimeFormat&quot;:&quot;M/D/YYYY HH:mm:ss&quot;,&quot;monthFormat&quot;:&quot;MMMM&quot;,&quot;monthBeforeYear&quot;:true,&quot;previousMonth&quot;:&quot;Previous month (PageUp)&quot;,&quot;nextMonth&quot;:&quot;Next month (PageDown)&quot;,&quot;previousYear&quot;:&quot;Last year (Control + left)&quot;,&quot;nextYear&quot;:&quot;Next year (Control + right)&quot;,&quot;previousDecade&quot;:&quot;Last decade&quot;,&quot;nextDecade&quot;:&quot;Next decade&quot;,&quot;previousCentury&quot;:&quot;Last century&quot;,&quot;nextCentury&quot;:&quot;Next century&quot;}&quot;" alwaysStopAt="true"/>
+        <variable name="style" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="prefixCls" expression="" defaultValue="&quot;rc-calendar&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-month-calendar"
+              value="&lt;MonthCalendar&#10;    format=&quot;$format$&quot; &#10;    placeholder=&quot;$placeholder$&quot; &#10;    onSelect={} &#10;    locale=&quot;$locale$&quot; &#10;    transitionName=&quot;$transitionName$&quot; &#10;    align={$align$} &#10;    showDateInput={$showDateInput$} &#10;    hasTrigger&#10;/&gt;&#10;"
+              description="UXCore MonthCalendar" toReformat="true" toShortenFQNames="true">
+
+        <variable name="format" expression="" defaultValue="&quot;YYYY-MM&quot;" alwaysStopAt="true"/>
+        <variable name="placeholder" expression="" defaultValue="&quot;请选择月份&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="transitionName" expression="" defaultValue="&quot;calendarSlideUp&quot;" alwaysStopAt="true"/>
+        <variable name="align" expression="" defaultValue="&quot;{&quot;offset&quot;:[0,0]}&quot;" alwaysStopAt="true"/>
+        <variable name="showDateInput" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-year-calendar"
+              value="&lt;YearCalendar&#10;    format=&quot;$format$&quot; &#10;    placeholder=&quot;$placeholder$&quot; &#10;    onSelect={} &#10;    locale=&quot;$locale$&quot; &#10;    transitionName=&quot;$transitionName$&quot; &#10;    align={$align$} &#10;    showDateInput={$showDateInput$} &#10;    hasTrigger&#10;/&gt;&#10;"
+              description="UXCore YearCalendar" toReformat="true" toShortenFQNames="true">
+
+        <variable name="format" expression="" defaultValue="&quot;YYYY&quot;" alwaysStopAt="true"/>
+        <variable name="placeholder" expression="" defaultValue="&quot;请选择年份&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="transitionName" expression="" defaultValue="&quot;calendarSlideUp&quot;" alwaysStopAt="true"/>
+        <variable name="align" expression="" defaultValue="&quot;{&quot;offset&quot;:[0,0]}&quot;" alwaysStopAt="true"/>
+        <variable name="showDateInput" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-range-calendar"
+              value="&lt;RangeCalendar&#10;    placeholder=&quot;$placeholder$&quot; &#10;    onSelect={} &#10;    locale=&quot;$locale$&quot; &#10;    align={$align$} &#10;    showSecond &#10;    showHour &#10;    showDateInput &#10;    hasTrigger &#10;    transitionName=&quot;$transitionName$&quot;&#10;/&gt;&#10;"
+              description="UXCore RangeCalendar" toReformat="true" toShortenFQNames="true">
+
+        <variable name="placeholder" expression="" defaultValue="&quot;请选择日期&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="align" expression="" defaultValue="&quot;{&quot;offset&quot;:[0,0]}&quot;" alwaysStopAt="true"/>
+        <variable name="transitionName" expression="" defaultValue="&quot;calendarSlideUp&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-calendar-pmam"
+              value="&lt;Calendar.Pmam&#10;    prefixCls=&quot;$prefixCls$&quot;&#10;/&gt;&#10;"
+              description="UXCore Calendar.Pmam" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-time-picker&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-carousel"
+              value="&lt;Carousel&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    largeArrowsAndDots={$largeArrowsAndDots$} &#10;    dots &#10;    cssEase=&quot;$cssEase$&quot; &#10;    infinite &#10;    speed={$speed$} &#10;    slidesToShow={$slidesToShow$} &#10;    centerDots &#10;    slidesToScroll={$slidesToScroll$} &#10;    arrows=&quot;$arrows$&quot;&#10;/&gt;&#10;"
+              description="UXCore Carousel" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-carousel&quot;" alwaysStopAt="true"/>
+        <variable name="largeArrowsAndDots" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="cssEase" expression="" defaultValue="&quot;ease-out&quot;" alwaysStopAt="true"/>
+        <variable name="speed" expression="" defaultValue="&quot;500&quot;" alwaysStopAt="true"/>
+        <variable name="slidesToShow" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="slidesToScroll" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="arrows" expression="" defaultValue="&quot;hover&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-cascade-multi-select"
+              value="&lt;CascadeMultiSelect&#10;    className=&quot;$className$&quot; &#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    config={} &#10;    options={} &#10;    cascadeSize={$cascadeSize$} &#10;    value={} &#10;    notFoundContent=&quot;$notFoundContent$&quot; &#10;    allowClear &#10;    locale=&quot;$locale$&quot; &#10;    onSelect={} &#10;    onItemClick={} &#10;    placeholder=&quot;$placeholder$&quot; &#10;    disabled={$disabled$} &#10;    defaultValue={} &#10;    dropdownClassName=&quot;$dropdownClassName$&quot; &#10;    onOk={} &#10;    onCancel={} &#10;    getPopupContainer={}&#10;/&gt;&#10;"
+              description="UXCore CascadeMultiSelect" toReformat="true" toShortenFQNames="true">
+
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-cascade-multi&quot;" alwaysStopAt="true"/>
+        <variable name="cascadeSize" expression="" defaultValue="&quot;3&quot;" alwaysStopAt="true"/>
+        <variable name="notFoundContent" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="placeholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="disabled" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="dropdownClassName" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-cascade-multi-select-cascade-multi-panel"
+              value="&lt;CascadeMultiSelect.CascadeMultiPanel&#10;    className=&quot;$className$&quot; &#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    config={} &#10;    options={} &#10;    cascadeSize={$cascadeSize$} &#10;    value={} &#10;    notFoundContent=&quot;$notFoundContent$&quot; &#10;    allowClear &#10;    locale=&quot;$locale$&quot; &#10;    onSelect={} &#10;    onItemClick={}&#10;/&gt;&#10;"
+              description="UXCore CascadeMultiSelect.CascadeMultiPanel" toReformat="true" toShortenFQNames="true">
+
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-cascade-multi&quot;" alwaysStopAt="true"/>
+        <variable name="cascadeSize" expression="" defaultValue="&quot;3&quot;" alwaysStopAt="true"/>
+        <variable name="notFoundContent" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-cascade-multi-select-cascade-multi-modal"
+              value="&lt;CascadeMultiSelect.CascadeMultiModal&#10;    className=&quot;$className$&quot; &#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    config={} &#10;    options={} &#10;    cascadeSize={$cascadeSize$} &#10;    value={} &#10;    notFoundContent=&quot;$notFoundContent$&quot; &#10;    allowClear &#10;    locale=&quot;$locale$&quot; &#10;    onSelect={} &#10;    title=&quot;$title$&quot; &#10;    width={$width$} &#10;    onOk={} &#10;    onCancel={}&#10;/&gt;&#10;"
+              description="UXCore CascadeMultiSelect.CascadeMultiModal" toReformat="true" toShortenFQNames="true">
+
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-cascade-multi&quot;" alwaysStopAt="true"/>
+        <variable name="cascadeSize" expression="" defaultValue="&quot;3&quot;" alwaysStopAt="true"/>
+        <variable name="notFoundContent" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="title" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="width" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-cascade-select"
+              value="&lt;CascadeSelect&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    className=&quot;$className$&quot; &#10;    placeholder=&quot;$placeholder$&quot; &#10;    options={} &#10;    defaultValue={} &#10;    value={} &#10;    onChange={} &#10;    disabled={$disabled$} &#10;    clearable={$clearable$} &#10;    changeOnSelect={$changeOnSelect$} &#10;    expandTrigger=&quot;$expandTrigger$&quot; &#10;    cascadeSize={$cascadeSize$} &#10;    beforeRender={} &#10;    locale=&quot;$locale$&quot; &#10;    miniMode &#10;    columnWidth={$columnWidth$} &#10;    displayMode=&quot;$displayMode$&quot; &#10;    getSelectPlaceholder={}&#10;/&gt;&#10;"
+              description="UXCore CascadeSelect" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-cascader&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="placeholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="disabled" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="clearable" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="changeOnSelect" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="expandTrigger" expression="" defaultValue="&quot;click&quot;" alwaysStopAt="true"/>
+        <variable name="cascadeSize" expression="" defaultValue="&quot;3&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="columnWidth" expression="" defaultValue="&quot;100&quot;" alwaysStopAt="true"/>
+        <variable name="displayMode" expression="" defaultValue="&quot;dropdown&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-checkbox-group"
+              value="&lt;CheckboxGroup&#10;    value={} &#10;    onChange={} &#10;    disabled={$disabled$} &#10;    className=&quot;$className$&quot;&#10;/&gt;&#10;"
+              description="UXCore CheckboxGroup" toReformat="true" toShortenFQNames="true">
+
+        <variable name="disabled" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;kuma-checkbox-group&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-checkbox-group-item"
+              value="&lt;CheckboxGroup.Item&#10;    value=&quot;$value$&quot; &#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    onChange={}&#10;/&gt;&#10;"
+              description="UXCore CheckboxGroup.Item" toReformat="true" toShortenFQNames="true">
+
+        <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-checkbox-group-item&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-collapse"
+              value="&lt;Collapse&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    onChange={} &#10;    accordion={$accordion$}&#10;/&gt;&#10;"
+              description="UXCore Collapse" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-collapse&quot;" alwaysStopAt="true"/>
+        <variable name="accordion" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-collapse-panel"
+              value="&lt;Collapse.Panel&#10;    isActive={$isActive$} &#10;    onItemClick={}&#10;/&gt;&#10;"
+              description="UXCore Collapse.Panel" toReformat="true" toShortenFQNames="true">
+
+        <variable name="isActive" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-crumb"
+              value="&lt;Crumb&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    className=&quot;$className$&quot;&#10;/&gt;&#10;"
+              description="UXCore Crumb" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-uxcrumbs&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-crumb-item"
+              value="&lt;Crumb.Item&gt;&#10;    链接&#10;&lt;/Crumb.Item&gt;&#10;"
+              description="UXCore Crumb.Item" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-dialog"
+              value="&lt;Dialog&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    className=&quot;$className$&quot; &#10;    wrapClassName=&quot;$wrapClassName$&quot; &#10;    onOk={} &#10;    locale=&quot;$locale$&quot; &#10;    onCancel={} &#10;    width={$width$} &#10;    transitionName=&quot;$transitionName$&quot; &#10;    maskTransitionName=&quot;$maskTransitionName$&quot; &#10;    confirmLoading={$confirmLoading$} &#10;    visible={$visible$} &#10;    closable &#10;    maskClosable={$maskClosable$} &#10;    title=&quot;$title$&quot; &#10;    htmlClassName=&quot;$htmlClassName$&quot;&#10;/&gt;&#10;"
+              description="UXCore Dialog" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-dlg&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="wrapClassName" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="width" expression="" defaultValue="&quot;520&quot;" alwaysStopAt="true"/>
+        <variable name="transitionName" expression="" defaultValue="&quot;dialogSlideDown&quot;" alwaysStopAt="true"/>
+        <variable name="maskTransitionName" expression="" defaultValue="&quot;dialogFade&quot;" alwaysStopAt="true"/>
+        <variable name="confirmLoading" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="visible" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="maskClosable" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="title" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="htmlClassName" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-dropdown"
+              value="&lt;Dropdown&#10;    minOverlayWidthMatchTrigger &#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    trigger={} &#10;    showAction={} &#10;    hideAction={} &#10;    overlayClassName=&quot;$overlayClassName$&quot; &#10;    overlayStyle={$overlayStyle$} &#10;    defaultVisible={$defaultVisible$} &#10;    onVisibleChange={} &#10;    placement=&quot;$placement$&quot; &#10;    transitionName=&quot;$transitionName$&quot;&#10;&gt;&#10;    $END$&#10;&lt;/Dropdown&gt;&#10;"
+              description="UXCore Dropdown" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-dropdown&quot;" alwaysStopAt="true"/>
+        <variable name="overlayClassName" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="overlayStyle" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="defaultVisible" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="placement" expression="" defaultValue="&quot;bottomLeft&quot;" alwaysStopAt="true"/>
+        <variable name="transitionName" expression="" defaultValue="&quot;dropdownSlideUp&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-empty-data"
+              value="&lt;EmptyData&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    type=&quot;$type$&quot; &#10;    icon=&quot;$icon$&quot; &#10;    largeIcon=&quot;$largeIcon$&quot;&#10;/&gt;&#10;"
+              description="UXCore EmptyData" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-empty-data&quot;" alwaysStopAt="true"/>
+        <variable name="type" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true"/>
+        <variable name="icon" expression="" defaultValue="&quot;https://img.alicdn.com/tps/TB1SFFFOpXXXXXzXVXXXXXXXXXX-166-168.png&quot;" alwaysStopAt="true"/>
+        <variable name="largeIcon" expression="" defaultValue="&quot;https://img.alicdn.com/tps/TB1oWW_OXXXXXXyapXXXXXXXXXX-390-390.png&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-float-nav"
+              value="&lt;FloatNav&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    className=&quot;$className$&quot; &#10;    showOrderNumber &#10;    width={$width$} &#10;    height={$height$} &#10;    offset={$offset$} &#10;    content={} &#10;    stepLength={$stepLength$}&#10;/&gt;&#10;"
+              description="UXCore FloatNav" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;uxcore-float-nav&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="width" expression="" defaultValue="&quot;260&quot;" alwaysStopAt="true"/>
+        <variable name="height" expression="" defaultValue="&quot;370&quot;" alwaysStopAt="true"/>
+        <variable name="offset" expression="" defaultValue="&quot;{&quot;right&quot;:20,&quot;bottom&quot;:20}&quot;" alwaysStopAt="true"/>
+        <variable name="stepLength" expression="" defaultValue="&quot;50&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-float-nav-nav-item"
+              value="&lt;FloatNav.NavItem&#10;    title=&quot;$title$&quot; &#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    orderNumber=&quot;$orderNumber$&quot; &#10;    anchor=&quot;$anchor$&quot; &#10;    onClick={} &#10;    onActive={} &#10;    rootNode &#10;    active={$active$} &#10;    subActiveAnchor=&quot;$subActiveAnchor$&quot;&#10;/&gt;&#10;"
+              description="UXCore FloatNav.NavItem" toReformat="true" toShortenFQNames="true">
+
+        <variable name="title" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="prefixCls" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="orderNumber" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="anchor" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="active" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="subActiveAnchor" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-form"
+              value="&lt;Form&#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    jsxmode=&quot;$jsxmode$&quot; &#10;    instantValidate &#10;    asyncValidate={$asyncValidate$} &#10;    jsxonChange={}&#10;/&gt;&#10;"
+              description="UXCore Form" toReformat="true" toShortenFQNames="true">
+
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform&quot;" alwaysStopAt="true"/>
+        <variable name="jsxmode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="asyncValidate" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-form-row"
+              value="&lt;FormRow&#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot;&#10;/&gt;&#10;"
+              description="UXCore FormRow" toReformat="true" toShortenFQNames="true">
+
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-row&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-form-row-title"
+              value="&lt;FormRowTitle&#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    jsxtitle=&quot;$jsxtitle$&quot;&#10;&gt;&#10;    $END$&#10;&lt;/FormRowTitle&gt;&#10;"
+              description="UXCore FormRowTitle" toReformat="true" toShortenFQNames="true">
+
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-row-title&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtitle" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-text-area-form-field"
+              value="&lt;TextAreaFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    onBlur={} &#10;    onFocus={} &#10;    onKeyDown={} &#10;    validateOnBlur={$validateOnBlur$} &#10;    autosize &#10;    IECompatible&#10;/&gt;&#10;"
+              description="UXCore TextAreaFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="validateOnBlur" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-text-area-form-field-text-area-count"
+              value="&lt;TextAreaFormField.TextAreaCount&#10;    prefixCls=&quot;$prefixCls$&quot;&#10;/&gt;&#10;"
+              description="UXCore TextAreaFormField.TextAreaCount" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-uxform-count&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-input-form-field"
+              value="&lt;InputFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    formPrefixCls=&quot;$formPrefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    IECompatible &#10;    onBlur={} &#10;    onFocus={} &#10;    onKeyDown={} &#10;    renderView={} &#10;    validateOnBlur={$validateOnBlur$} &#10;    inputType=&quot;$inputType$&quot;&#10;/&gt;&#10;"
+              description="UXCore InputFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="formPrefixCls" expression="" defaultValue="&quot;kuma-uxform&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="validateOnBlur" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="inputType" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-input-form-field-count"
+              value="&lt;InputFormField.Count&#10;    prefixCls=&quot;$prefixCls$&quot;&#10;/&gt;&#10;"
+              description="UXCore InputFormField.Count" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-uxform-count&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-input-form-field-left-addon"
+              value="&lt;InputFormField.LeftAddon&gt;&#10;    $END$&#10;&lt;/InputFormField.LeftAddon&gt;&#10;"
+              description="UXCore InputFormField.LeftAddon" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-input-form-field-right-addon"
+              value="&lt;InputFormField.RightAddon&gt;&#10;    $END$&#10;&lt;/InputFormField.RightAddon&gt;&#10;"
+              description="UXCore InputFormField.RightAddon" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-radio-group-form-field"
+              value="&lt;RadioGroupFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    formPrefixCls=&quot;$formPrefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    locale=&quot;$locale$&quot; &#10;    hasTrigger &#10;    jsxtype=&quot;$jsxtype$&quot; &#10;    autoMatchWidth={$autoMatchWidth$} &#10;    panel=&quot;$panel$&quot; &#10;    useFormat={$useFormat$}&#10;/&gt;&#10;"
+              description="UXCore RadioGroupFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="formPrefixCls" expression="" defaultValue="&quot;kuma-uxform&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtype" expression="" defaultValue="&quot;single&quot;" alwaysStopAt="true"/>
+        <variable name="autoMatchWidth" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="panel" expression="" defaultValue="&quot;day&quot;" alwaysStopAt="true"/>
+        <variable name="useFormat" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-radio-group-form-field-item"
+              value="&lt;RadioGroupFormField.Item&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    text=&quot;$text$&quot; &#10;    value=&quot;$value$&quot; &#10;    className=&quot;$className$&quot; &#10;    onChange={}&#10;/&gt;&#10;"
+              description="UXCore RadioGroupFormField.Item" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-radio-group-item&quot;" alwaysStopAt="true"/>
+        <variable name="text" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;kuma-checkbox&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-select-form-field"
+              value="&lt;SelectFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    formPrefixCls=&quot;$formPrefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    jsxstyle={$jsxstyle$} &#10;    jsxcombobox={$jsxcombobox$} &#10;    jsxdata={$jsxdata$} &#10;    searchDelay={$searchDelay$} &#10;    beforeFetch={} &#10;    afterFetch={} &#10;    fitResponse={} &#10;    jsxshowSearch &#10;    jsxallowClear={$jsxallowClear$} &#10;    jsxtags={$jsxtags$} &#10;    jsxmultiple={$jsxmultiple$} &#10;    jsxsearchPlaceholder=&quot;$jsxsearchPlaceholder$&quot; &#10;    optionFilterProp=&quot;$optionFilterProp$&quot; &#10;    optionLabelProp=&quot;$optionLabelProp$&quot;&#10;/&gt;&#10;"
+              description="UXCore SelectFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="formPrefixCls" expression="" defaultValue="&quot;kuma-uxform&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;请下拉选择&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxstyle" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="jsxcombobox" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxdata" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="searchDelay" expression="" defaultValue="&quot;100&quot;" alwaysStopAt="true"/>
+        <variable name="jsxallowClear" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtags" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxmultiple" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxsearchPlaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="optionFilterProp" expression="" defaultValue="&quot;children&quot;" alwaysStopAt="true"/>
+        <variable name="optionLabelProp" expression="" defaultValue="&quot;children&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-select-form-field-option"
+              value="&lt;SelectFormField.Option /&gt;&#10;"
+              description="UXCore SelectFormField.Option" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-number-input-form-field"
+              value="&lt;NumberInputFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    formPrefixCls=&quot;$formPrefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    IECompatible &#10;    onBlur={} &#10;    onFocus={} &#10;    onKeyDown={} &#10;    renderView={} &#10;    validateOnBlur={$validateOnBlur$} &#10;    inputType=&quot;$inputType$&quot; &#10;    jsxtype=&quot;$jsxtype$&quot; &#10;    delimiter=&quot;$delimiter$&quot; &#10;    formatValueOnBlur={$formatValueOnBlur$}&#10;/&gt;&#10;"
+              description="UXCore NumberInputFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="formPrefixCls" expression="" defaultValue="&quot;kuma-uxform&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="validateOnBlur" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="inputType" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtype" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="delimiter" expression="" defaultValue="&quot; &quot;" alwaysStopAt="true"/>
+        <variable name="formatValueOnBlur" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-date-form-field"
+              value="&lt;DateFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    formPrefixCls=&quot;$formPrefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    locale=&quot;$locale$&quot; &#10;    hasTrigger &#10;    jsxtype=&quot;$jsxtype$&quot; &#10;    autoMatchWidth={$autoMatchWidth$} &#10;    panel=&quot;$panel$&quot; &#10;    useFormat={$useFormat$}&#10;/&gt;&#10;"
+              description="UXCore DateFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="formPrefixCls" expression="" defaultValue="&quot;kuma-uxform&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtype" expression="" defaultValue="&quot;single&quot;" alwaysStopAt="true"/>
+        <variable name="autoMatchWidth" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="panel" expression="" defaultValue="&quot;day&quot;" alwaysStopAt="true"/>
+        <variable name="useFormat" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-checkbox-group-form-field"
+              value="&lt;CheckboxGroupFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    formPrefixCls=&quot;$formPrefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    locale=&quot;$locale$&quot; &#10;    hasTrigger &#10;    jsxtype=&quot;$jsxtype$&quot; &#10;    autoMatchWidth={$autoMatchWidth$} &#10;    panel=&quot;$panel$&quot; &#10;    useFormat={$useFormat$}&#10;/&gt;&#10;"
+              description="UXCore CheckboxGroupFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="formPrefixCls" expression="" defaultValue="&quot;kuma-uxform&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtype" expression="" defaultValue="&quot;single&quot;" alwaysStopAt="true"/>
+        <variable name="autoMatchWidth" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="panel" expression="" defaultValue="&quot;day&quot;" alwaysStopAt="true"/>
+        <variable name="useFormat" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-checkbox-group-form-field-item"
+              value="&lt;CheckboxGroupFormField.Item&#10;    value=&quot;$value$&quot; &#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    onChange={}&#10;/&gt;&#10;"
+              description="UXCore CheckboxGroupFormField.Item" toReformat="true" toShortenFQNames="true">
+
+        <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-checkbox-group-item&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-cascade-select-form-field"
+              value="&lt;CascadeSelectFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    formPrefixCls=&quot;$formPrefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    locale=&quot;$locale$&quot; &#10;    hasTrigger &#10;    jsxtype=&quot;$jsxtype$&quot; &#10;    autoMatchWidth={$autoMatchWidth$} &#10;    panel=&quot;$panel$&quot; &#10;    useFormat={$useFormat$} &#10;    jsxshowSearch={$jsxshowSearch$}&#10;/&gt;&#10;"
+              description="UXCore CascadeSelectFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="formPrefixCls" expression="" defaultValue="&quot;kuma-uxform&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;请下拉选择&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtype" expression="" defaultValue="&quot;single&quot;" alwaysStopAt="true"/>
+        <variable name="autoMatchWidth" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="panel" expression="" defaultValue="&quot;day&quot;" alwaysStopAt="true"/>
+        <variable name="useFormat" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxshowSearch" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-other-form-field"
+              value="&lt;OtherFormField&#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxshow&#10;/&gt;&#10;"
+              description="UXCore OtherFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field kuma-other-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-button-group-form-field"
+              value="&lt;ButtonGroupFormField&#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxshow&#10;/&gt;&#10;"
+              description="UXCore ButtonGroupFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field kuma-button-group-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-editor-form-field"
+              value="&lt;EditorFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    formPrefixCls=&quot;$formPrefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    locale=&quot;$locale$&quot; &#10;    hasTrigger &#10;    jsxtype=&quot;$jsxtype$&quot; &#10;    autoMatchWidth={$autoMatchWidth$} &#10;    panel=&quot;$panel$&quot; &#10;    useFormat={$useFormat$} &#10;    jsxconfig={$jsxconfig$} &#10;    jsxcontent=&quot;$jsxcontent$&quot;&#10;/&gt;&#10;"
+              description="UXCore EditorFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="formPrefixCls" expression="" defaultValue="&quot;kuma-uxform&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtype" expression="" defaultValue="&quot;single&quot;" alwaysStopAt="true"/>
+        <variable name="autoMatchWidth" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="panel" expression="" defaultValue="&quot;day&quot;" alwaysStopAt="true"/>
+        <variable name="useFormat" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxconfig" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="jsxcontent" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-search-form-field"
+              value="&lt;SearchFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel={$jsxshowLabel$} &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    formPrefixCls=&quot;$formPrefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    jsxstyle={$jsxstyle$} &#10;    jsxcombobox={$jsxcombobox$} &#10;    jsxdata={$jsxdata$} &#10;    searchDelay={$searchDelay$} &#10;    beforeFetch={} &#10;    afterFetch={} &#10;    fitResponse={} &#10;    jsxshowSearch &#10;    jsxallowClear={$jsxallowClear$} &#10;    jsxtags={$jsxtags$} &#10;    jsxmultiple={$jsxmultiple$} &#10;    jsxsearchPlaceholder=&quot;$jsxsearchPlaceholder$&quot; &#10;    optionFilterProp=&quot;$optionFilterProp$&quot; &#10;    optionLabelProp=&quot;$optionLabelProp$&quot; &#10;    combobox &#10;    showSearch={$showSearch$} &#10;    advancedConfig={$advancedConfig$} &#10;    classConfig={$classConfig$} &#10;    tidy={$tidy$} &#10;    onIconClick={}&#10;/&gt;&#10;"
+              description="UXCore SearchFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxshowLabel" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="formPrefixCls" expression="" defaultValue="&quot;kuma-uxform&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;请下拉选择&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxstyle" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="jsxcombobox" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxdata" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="searchDelay" expression="" defaultValue="&quot;100&quot;" alwaysStopAt="true"/>
+        <variable name="jsxallowClear" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtags" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxmultiple" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxsearchPlaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="optionFilterProp" expression="" defaultValue="&quot;children&quot;" alwaysStopAt="true"/>
+        <variable name="optionLabelProp" expression="" defaultValue="&quot;children&quot;" alwaysStopAt="true"/>
+        <variable name="showSearch" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="advancedConfig" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="classConfig" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="tidy" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-search-form-field-option"
+              value="&lt;SearchFormField.Option /&gt;&#10;"
+              description="UXCore SearchFormField.Option" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-switch-form-field"
+              value="&lt;SwitchFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$}&#10;/&gt;&#10;"
+              description="UXCore SwitchFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-pickable-form-field"
+              value="&lt;PickableFormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    multiple &#10;    value={} &#10;    type=&quot;$type$&quot; &#10;    max={$max$}&#10;/&gt;&#10;"
+              description="UXCore PickableFormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="type" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true"/>
+        <variable name="max" expression="" defaultValue="&quot;99&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-pickable-form-field-item"
+              value="&lt;PickableFormField.Item&#10;    disabled={$disabled$}&#10;/&gt;&#10;"
+              description="UXCore PickableFormField.Item" toReformat="true" toShortenFQNames="true">
+
+        <variable name="disabled" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-form-field"
+              value="&lt;FormField&#10;    verticalAlign={$verticalAlign$} &#10;    labelMatchInputHeight={$labelMatchInputHeight$} &#10;    jsxshow &#10;    jsxshowLabel &#10;    jsxprefixCls=&quot;$jsxprefixCls$&quot; &#10;    formPrefixCls=&quot;$formPrefixCls$&quot; &#10;    jsxflex={$jsxflex$} &#10;    jsxname=&quot;$jsxname$&quot; &#10;    jsxplaceholder=&quot;$jsxplaceholder$&quot; &#10;    jsxlabel=&quot;$jsxlabel$&quot; &#10;    jsxtips=&quot;$jsxtips$&quot; &#10;    standalone={$standalone$} &#10;    mode=&quot;$mode$&quot; &#10;    required={$required$} &#10;    locale=&quot;$locale$&quot; &#10;    hasTrigger &#10;    jsxtype=&quot;$jsxtype$&quot; &#10;    autoMatchWidth={$autoMatchWidth$} &#10;    panel=&quot;$panel$&quot; &#10;    useFormat={$useFormat$}&#10;/&gt;&#10;"
+              description="UXCore FormField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="verticalAlign" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelMatchInputHeight" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="jsxprefixCls" expression="" defaultValue="&quot;kuma-uxform-field&quot;" alwaysStopAt="true"/>
+        <variable name="formPrefixCls" expression="" defaultValue="&quot;kuma-uxform&quot;" alwaysStopAt="true"/>
+        <variable name="jsxflex" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="jsxname" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxplaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxlabel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtips" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="required" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="jsxtype" expression="" defaultValue="&quot;single&quot;" alwaysStopAt="true"/>
+        <variable name="autoMatchWidth" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="panel" expression="" defaultValue="&quot;day&quot;" alwaysStopAt="true"/>
+        <variable name="useFormat" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-grid"
+              value="&lt;Grid&#10;    componentClass=&quot;$componentClass$&quot; &#10;    fluid={$fluid$}&#10;/&gt;&#10;"
+              description="UXCore Grid" toReformat="true" toShortenFQNames="true">
+
+        <variable name="componentClass" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true"/>
+        <variable name="fluid" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-grid-row"
+              value="&lt;Grid.Row&#10;    componentClass=&quot;$componentClass$&quot;&#10;/&gt;&#10;"
+              description="UXCore Grid.Row" toReformat="true" toShortenFQNames="true">
+
+        <variable name="componentClass" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-grid-col"
+              value="&lt;Grid.Col&#10;    componentClass=&quot;$componentClass$&quot;&#10;/&gt;&#10;"
+              description="UXCore Grid.Col" toReformat="true" toShortenFQNames="true">
+
+        <variable name="componentClass" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-icon"
+              value="&lt;Icon&#10;    name=&quot;$name$&quot;&#10;/&gt;&#10;"
+              description="UXCore Icon" toReformat="true" toShortenFQNames="true">
+
+        <variable name="name" expression="" defaultValue="&quot;shezhi&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-layout"
+              value="&lt;Layout /&gt;&#10;"
+              description="UXCore Layout" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-layout-left"
+              value="&lt;Layout.Left&#10;    width={$width$}&#10;/&gt;&#10;"
+              description="UXCore Layout.Left" toReformat="true" toShortenFQNames="true">
+
+        <variable name="width" expression="" defaultValue="&quot;500&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-layout-right"
+              value="&lt;Layout.Right&#10;    width={$width$}&#10;/&gt;&#10;"
+              description="UXCore Layout.Right" toReformat="true" toShortenFQNames="true">
+
+        <variable name="width" expression="" defaultValue="&quot;500&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-load-more"
+              value="&lt;LoadMore&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    status=&quot;$status$&quot; &#10;    className=&quot;$className$&quot; &#10;    trigger={} &#10;    onLoadMore={} &#10;    locale=&quot;$locale$&quot; &#10;    viewLoadDelay={$viewLoadDelay$}&#10;/&gt;&#10;"
+              description="UXCore LoadMore" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-load-more&quot;" alwaysStopAt="true"/>
+        <variable name="status" expression="" defaultValue="&quot;loaded&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="viewLoadDelay" expression="" defaultValue="&quot;150&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-matrix"
+              value="&lt;Matrix&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    data={$data$} &#10;    cellHeight={$cellHeight$} &#10;    cellWidth={$cellWidth$} &#10;    render={}&#10;/&gt;&#10;"
+              description="UXCore Matrix" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-matrix&quot;" alwaysStopAt="true"/>
+        <variable name="data" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="cellHeight" expression="" defaultValue="&quot;40&quot;" alwaysStopAt="true"/>
+        <variable name="cellWidth" expression="" defaultValue="&quot;100&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-mention"
+              value="&lt;Mention&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    source={} &#10;    delay={$delay$} &#10;    matchRange={} &#10;    formatter={} &#10;    panelFormatter={} &#10;    onChange={}&#10;/&gt;&#10;"
+              description="UXCore Mention" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-mention&quot;" alwaysStopAt="true"/>
+        <variable name="delay" expression="" defaultValue="&quot;100&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-menu"
+              value="&lt;Menu&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    openAnimation=&quot;$openAnimation$&quot; &#10;    inlineIndent={$inlineIndent$}&#10;/&gt;&#10;"
+              description="UXCore Menu" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-menu&quot;" alwaysStopAt="true"/>
+        <variable name="openAnimation" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="inlineIndent" expression="" defaultValue="&quot;14&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-sub-menu"
+              value="&lt;SubMenu&#10;    onMouseEnter={} &#10;    onMouseLeave={} &#10;    onTitleMouseEnter={} &#10;    onTitleMouseLeave={} &#10;    onTitleClick={} &#10;    title=&quot;$title$&quot;&#10;&gt;&#10;    $END$&#10;&lt;/SubMenu&gt;&#10;"
+              description="UXCore SubMenu" toReformat="true" toShortenFQNames="true">
+
+        <variable name="title" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-menu-item"
+              value="&lt;Menu.Item&#10;    onSelect={} &#10;    onMouseEnter={} &#10;    onMouseLeave={}&#10;&gt;&#10;    $END$&#10;&lt;/Menu.Item&gt;&#10;"
+              description="UXCore Menu.Item" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-menu-divider"
+              value="&lt;Menu.Divider&#10;    disabled&#10;/&gt;&#10;"
+              description="UXCore Menu.Divider" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-multi-select"
+              value="&lt;MultiSelect&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    className=&quot;$className$&quot; &#10;    dropdownClassName=&quot;$dropdownClassName$&quot; &#10;    value={} &#10;    disabled={$disabled$} &#10;    placeholder=&quot;$placeholder$&quot; &#10;    titleBreakStr=&quot;$titleBreakStr$&quot; &#10;    optionLabelProp=&quot;$optionLabelProp$&quot; &#10;    showSelectAll &#10;    showClear &#10;    onChange={} &#10;    onSubmit={} &#10;    locale=&quot;$locale$&quot;&#10;/&gt;&#10;"
+              description="UXCore MultiSelect" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-multi-select&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="dropdownClassName" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="disabled" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="placeholder" expression="" defaultValue="&quot;请选择&quot;" alwaysStopAt="true"/>
+        <variable name="titleBreakStr" expression="" defaultValue="&quot;, &quot;" alwaysStopAt="true"/>
+        <variable name="optionLabelProp" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-multi-select-item"
+              value="&lt;MultiSelect.Item&#10;    value=&quot;$value$&quot; &#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    onChange={}&#10;/&gt;&#10;"
+              description="UXCore MultiSelect.Item" toReformat="true" toShortenFQNames="true">
+
+        <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-checkbox-group-item&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-pagination"
+              value="&lt;Pagination&#10;    current={$current$} &#10;    total={$total$} &#10;    locale=&quot;$locale$&quot; &#10;    showTotal={$showTotal$} &#10;    pageSize={$pageSize$} &#10;    sizeOptions={} &#10;    onChange={} &#10;    className=&quot;$className$&quot; &#10;    selectPrefixCls=&quot;$selectPrefixCls$&quot; &#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    selectComponentClass={} &#10;    showQuickJumper={$showQuickJumper$} &#10;    showSizeChanger={$showSizeChanger$} &#10;    onShowSizeChange={}&#10;/&gt;&#10;"
+              description="UXCore Pagination" toReformat="true" toShortenFQNames="true">
+
+        <variable name="current" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="total" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="showTotal" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="pageSize" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="selectPrefixCls" expression="" defaultValue="&quot;kuma-select2&quot;" alwaysStopAt="true"/>
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-page&quot;" alwaysStopAt="true"/>
+        <variable name="showQuickJumper" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="showSizeChanger" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-pickable"
+              value="&lt;Pickable&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    value={} &#10;    type=&quot;$type$&quot; &#10;    multiple &#10;    enableFold={$enableFold$} &#10;    defaultfoldItems &#10;    locale=&quot;$locale$&quot; &#10;    onChange={} &#10;    maxLines={$maxLines$}&#10;/&gt;&#10;"
+              description="UXCore Pickable" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-pickable&quot;" alwaysStopAt="true"/>
+        <variable name="type" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true"/>
+        <variable name="enableFold" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="maxLines" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-pickable-item"
+              value="&lt;Pickable.Item&#10;    disabled={$disabled$}&#10;/&gt;&#10;"
+              description="UXCore Pickable.Item" toReformat="true" toShortenFQNames="true">
+
+        <variable name="disabled" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-popover"
+              value="&lt;Popover&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    transitionName=&quot;$transitionName$&quot; &#10;    delay={$delay$} &#10;    placement=&quot;$placement$&quot; &#10;    trigger=&quot;$trigger$&quot; &#10;    onOk={} &#10;    onCancel={} &#10;    okText=&quot;$okText$&quot; &#10;    cancelText=&quot;$cancelText$&quot; &#10;    showButton={$showButton$} &#10;    onVisibleChange={}&#10;/&gt;&#10;"
+              description="UXCore Popover" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-popover&quot;" alwaysStopAt="true"/>
+        <variable name="transitionName" expression="" defaultValue="&quot;popover-slide&quot;" alwaysStopAt="true"/>
+        <variable name="delay" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true"/>
+        <variable name="placement" expression="" defaultValue="&quot;top&quot;" alwaysStopAt="true"/>
+        <variable name="trigger" expression="" defaultValue="&quot;hover&quot;" alwaysStopAt="true"/>
+        <variable name="okText" expression="" defaultValue="&quot;确定&quot;" alwaysStopAt="true"/>
+        <variable name="cancelText" expression="" defaultValue="&quot;取消&quot;" alwaysStopAt="true"/>
+        <variable name="showButton" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-progress"
+              value="&lt;Progress&#10;    percent={$percent$} &#10;    strokeWidth={$strokeWidth$} &#10;    status=&quot;$status$&quot; &#10;    showInfo&#10;/&gt;&#10;"
+              description="UXCore Progress" toReformat="true" toShortenFQNames="true">
+
+        <variable name="percent" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true"/>
+        <variable name="strokeWidth" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true"/>
+        <variable name="status" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-progress-line"
+              value="&lt;Progress.Line&#10;    percent={$percent$} &#10;    strokeWidth={$strokeWidth$} &#10;    status=&quot;$status$&quot; &#10;    showInfo&#10;/&gt;&#10;"
+              description="UXCore Progress.Line" toReformat="true" toShortenFQNames="true">
+
+        <variable name="percent" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true"/>
+        <variable name="strokeWidth" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true"/>
+        <variable name="status" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-progress-circle"
+              value="&lt;Progress.Circle&#10;    status=&quot;$status$&quot; &#10;    percent={$percent$} &#10;    strokeWidth={$strokeWidth$} &#10;    size={$size$} &#10;    showInfo&#10;/&gt;&#10;"
+              description="UXCore Progress.Circle" toReformat="true" toShortenFQNames="true">
+
+        <variable name="status" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true"/>
+        <variable name="percent" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true"/>
+        <variable name="strokeWidth" expression="" defaultValue="&quot;6&quot;" alwaysStopAt="true"/>
+        <variable name="size" expression="" defaultValue="&quot;156&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-radio-group"
+              value="&lt;RadioGroup&#10;    value=&quot;$value$&quot; &#10;    onChange={}&#10;/&gt;&#10;"
+              description="UXCore RadioGroup" toReformat="true" toShortenFQNames="true">
+
+        <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-radio-group-item"
+              value="&lt;RadioGroup.Item&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    text=&quot;$text$&quot; &#10;    value=&quot;$value$&quot; &#10;    className=&quot;$className$&quot; &#10;    onChange={}&#10;/&gt;&#10;"
+              description="UXCore RadioGroup.Item" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-radio-group-item&quot;" alwaysStopAt="true"/>
+        <variable name="text" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;kuma-checkbox&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-select2"
+              value="&lt;Select2&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    filterOption={} &#10;    defaultOpen={$defaultOpen$} &#10;    labelInValue={$labelInValue$} &#10;    defaultActiveFirstOption &#10;    showSearch &#10;    allowClear={$allowClear$} &#10;    placeholder=&quot;$placeholder$&quot; &#10;    defaultValue={} &#10;    onChange={} &#10;    onBlur={} &#10;    onSelect={} &#10;    onSearch={} &#10;    onDeselect={} &#10;    showArrow &#10;    dropdownMatchSelectWidth &#10;    dropdownStyle={$dropdownStyle$} &#10;    dropdownMenuStyle={$dropdownMenuStyle$} &#10;    optionFilterProp=&quot;$optionFilterProp$&quot; &#10;    optionLabelProp=&quot;$optionLabelProp$&quot; &#10;    notFoundContent=&quot;$notFoundContent$&quot; &#10;    transitionName=&quot;$transitionName$&quot;&#10;/&gt;&#10;"
+              description="UXCore Select2" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-select2&quot;" alwaysStopAt="true"/>
+        <variable name="defaultOpen" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="labelInValue" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="allowClear" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="placeholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="dropdownStyle" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="dropdownMenuStyle" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="optionFilterProp" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true"/>
+        <variable name="optionLabelProp" expression="" defaultValue="&quot;children&quot;" alwaysStopAt="true"/>
+        <variable name="notFoundContent" expression="" defaultValue="&quot;Not Found&quot;" alwaysStopAt="true"/>
+        <variable name="transitionName" expression="" defaultValue="&quot;selectSlideUp&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-splitter"
+              value="&lt;Splitter&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    orientation=&quot;$orientation$&quot; &#10;    className=&quot;$className$&quot; &#10;    onResize={}&#10;/&gt;&#10;"
+              description="UXCore Splitter" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;uxcore-splitter&quot;" alwaysStopAt="true"/>
+        <variable name="orientation" expression="" defaultValue="&quot;horizontal&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-splitter-pane"
+              value="&lt;Splitter.Pane&#10;    className=&quot;$className$&quot; &#10;    defaultSize=&quot;$defaultSize$&quot; &#10;    size={} &#10;    resizable={$resizable$} &#10;    collapsible={$collapsible$} &#10;    orientation=&quot;$orientation$&quot; &#10;    offset={} &#10;    parentSplitter={} &#10;    collapse={} &#10;    defaultCollapse={} &#10;    onTogglePane={} &#10;    onCollapse={}&#10;/&gt;&#10;"
+              description="UXCore Splitter.Pane" toReformat="true" toShortenFQNames="true">
+
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="defaultSize" expression="" defaultValue="&quot;auto&quot;" alwaysStopAt="true"/>
+        <variable name="resizable" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="collapsible" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="orientation" expression="" defaultValue="&quot;horizontal&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-steps"
+              value="&lt;Steps&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    className=&quot;$className$&quot; &#10;    iconPrefix=&quot;$iconPrefix$&quot; &#10;    maxDescriptionWidth={$maxDescriptionWidth$} &#10;    current={$current$} &#10;    direction=&quot;$direction$&quot; &#10;    showIcon &#10;    type=&quot;$type$&quot; &#10;    showDetail={$showDetail$} &#10;    currentDetail={$currentDetail$} &#10;    onChange={}&#10;&gt;&#10;    $END$&#10;&lt;/Steps&gt;&#10;"
+              description="UXCore Steps" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-step&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="iconPrefix" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="maxDescriptionWidth" expression="" defaultValue="&quot;100&quot;" alwaysStopAt="true"/>
+        <variable name="current" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true"/>
+        <variable name="direction" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="type" expression="" defaultValue="&quot;default&quot;" alwaysStopAt="true"/>
+        <variable name="showDetail" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="currentDetail" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-steps-step"
+              value="&lt;Steps.Step /&gt;&#10;"
+              description="UXCore Steps.Step" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-switch"
+              value="&lt;Switch&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    checkedChildren={} &#10;    unCheckedChildren={} &#10;    className=&quot;$className$&quot; &#10;    defaultChecked={$defaultChecked$} &#10;    onChange={}&#10;/&gt;&#10;"
+              description="UXCore Switch" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-switch&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="defaultChecked" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-table"
+              value="&lt;Table&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    jsxcolumns={} &#10;    locale=&quot;$locale$&quot; &#10;    showHeader &#10;    width=&quot;$width$&quot; &#10;    height=&quot;$height$&quot; &#10;    mode=&quot;$mode$&quot; &#10;    renderModel=&quot;$renderModel$&quot; &#10;    levels={$levels$} &#10;    actionBarHeight={$actionBarHeight$} &#10;    fetchDataOnMount &#10;    doubleClickToEdit &#10;    rowSelector=&quot;$rowSelector$&quot; &#10;    showPager &#10;    isMiniPager={$isMiniPager$} &#10;    showPagerSizeChanger &#10;    showPagerQuickJumper &#10;    showColumnPicker={$showColumnPicker$} &#10;    showHeaderBorder={$showHeaderBorder$} &#10;    showPagerTotal &#10;    showMask={$showMask$} &#10;    showSearch={$showSearch$} &#10;    getSavedData &#10;    pageSize={$pageSize$} &#10;    pagerSizeOptions={} &#10;    rowHeight={$rowHeight$} &#10;    fetchParams={$fetchParams$} &#10;    currentPage={$currentPage$} &#10;    searchBarPlaceholder=&quot;$searchBarPlaceholder$&quot; &#10;    loadingText=&quot;$loadingText$&quot; &#10;    fitResponse={} &#10;    processData={} &#10;    beforeFetch={} &#10;    onFetchError={} &#10;    addRowClassName={} &#10;    onChange={} &#10;    onSave={}&#10;/&gt;&#10;"
+              description="UXCore Table" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-uxtable&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="width" expression="" defaultValue="&quot;auto&quot;" alwaysStopAt="true"/>
+        <variable name="height" expression="" defaultValue="&quot;auto&quot;" alwaysStopAt="true"/>
+        <variable name="mode" expression="" defaultValue="&quot;edit&quot;" alwaysStopAt="true"/>
+        <variable name="renderModel" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="levels" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true"/>
+        <variable name="actionBarHeight" expression="" defaultValue="&quot;54&quot;" alwaysStopAt="true"/>
+        <variable name="rowSelector" expression="" defaultValue="&quot;checkboxSelector&quot;" alwaysStopAt="true"/>
+        <variable name="isMiniPager" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="showColumnPicker" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="showHeaderBorder" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="showMask" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="showSearch" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="pageSize" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true"/>
+        <variable name="rowHeight" expression="" defaultValue="&quot;76&quot;" alwaysStopAt="true"/>
+        <variable name="fetchParams" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="currentPage" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true"/>
+        <variable name="searchBarPlaceholder" expression="" defaultValue="&quot;搜索表格内容&quot;" alwaysStopAt="true"/>
+        <variable name="loadingText" expression="" defaultValue="&quot;loading&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-table-cell-field"
+              value="&lt;Table.CellField&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    standalone={$standalone$}&#10;/&gt;&#10;"
+              description="UXCore Table.CellField" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-uxtable-cell-field&quot;" alwaysStopAt="true"/>
+        <variable name="standalone" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-tabs"
+              value="&lt;Tabs&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    destroyInactiveTabPane={$destroyInactiveTabPane$} &#10;    onChange={} &#10;    tabBarPosition=&quot;$tabBarPosition$&quot; &#10;    style={$style$} &#10;    type=&quot;$type$&quot; &#10;    animated &#10;    onTabClick={}&#10;/&gt;&#10;"
+              description="UXCore Tabs" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-tab&quot;" alwaysStopAt="true"/>
+        <variable name="destroyInactiveTabPane" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="tabBarPosition" expression="" defaultValue="&quot;top&quot;" alwaysStopAt="true"/>
+        <variable name="style" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="type" expression="" defaultValue="&quot;large&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-tabs-tab-pane"
+              value="&lt;Tabs.TabPane&#10;    placeholder={}&#10;/&gt;&#10;"
+              description="UXCore Tabs.TabPane" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-tag"
+              value="&lt;Tag&#10;    className=&quot;$className$&quot; &#10;    addTags &#10;    onAdd={} &#10;    locale=&quot;$locale$&quot;&#10;/&gt;&#10;"
+              description="UXCore Tag" toReformat="true" toShortenFQNames="true">
+
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-tag-item"
+              value="&lt;Tag.Item&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    className=&quot;$className$&quot; &#10;    count={$count$} &#10;    canAddCount={$canAddCount$} &#10;    canDelete={$canDelete$} &#10;    onClick={} &#10;    maxDisplayCount={$maxDisplayCount$} &#10;    onAddCount={} &#10;    onDelete={} &#10;    confirmDeleteText=&quot;$confirmDeleteText$&quot; &#10;    locale=&quot;$locale$&quot;&#10;/&gt;&#10;"
+              description="UXCore Tag.Item" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;uxcore-tag-item&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="count" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true"/>
+        <variable name="canAddCount" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="canDelete" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="maxDisplayCount" expression="" defaultValue="&quot;99&quot;" alwaysStopAt="true"/>
+        <variable name="confirmDeleteText" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-timeline"
+              value="&lt;Timeline&#10;    className=&quot;$className$&quot; &#10;    prefixCls=&quot;$prefixCls$&quot;&#10;/&gt;&#10;"
+              description="UXCore Timeline" toReformat="true" toShortenFQNames="true">
+
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-timeline&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-timeline-item"
+              value="&lt;Timeline.Item&#10;    pending={$pending$} &#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    className=&quot;$className$&quot; &#10;    last={$last$} &#10;    color=&quot;$color$&quot; &#10;    dotted={$dotted$} &#10;    active={$active$} &#10;    title=&quot;$title$&quot;&#10;/&gt;&#10;"
+              description="UXCore Timeline.Item" toReformat="true" toShortenFQNames="true">
+
+        <variable name="pending" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-timeline&quot;" alwaysStopAt="true"/>
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="last" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="color" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="dotted" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="active" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="title" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-title"
+              value="&lt;Title&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    type=&quot;$type$&quot;&#10;&gt;&#10;    $END$&#10;&lt;/Title&gt;&#10;"
+              description="UXCore Title" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-title&quot;" alwaysStopAt="true"/>
+        <variable name="type" expression="" defaultValue="&quot;primary&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-tooltip"
+              value="&lt;Tooltip&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    mouseEnterDelay={$mouseEnterDelay$} &#10;    destroyTooltipOnHide={$destroyTooltipOnHide$} &#10;    mouseLeaveDelay={$mouseLeaveDelay$} &#10;    align={$align$} &#10;    placement=&quot;$placement$&quot; &#10;    trigger={} &#10;    arrowContent={} &#10;    transitionName=&quot;$transitionName$&quot;&#10;&gt;&#10;    $END$&#10;&lt;/Tooltip&gt;&#10;"
+              description="UXCore Tooltip" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-tooltip&quot;" alwaysStopAt="true"/>
+        <variable name="mouseEnterDelay" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true"/>
+        <variable name="destroyTooltipOnHide" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="mouseLeaveDelay" expression="" defaultValue="&quot;0.1&quot;" alwaysStopAt="true"/>
+        <variable name="align" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="placement" expression="" defaultValue="&quot;right&quot;" alwaysStopAt="true"/>
+        <variable name="transitionName" expression="" defaultValue="&quot;tip-slide&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-tree"
+              value="&lt;Tree&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    showLine={$showLine$} &#10;    showIcon={$showIcon$} &#10;    selectable &#10;    multiple={$multiple$} &#10;    checkable={$checkable$} &#10;    checkStrictly={$checkStrictly$} &#10;    draggable={$draggable$} &#10;    autoExpandParent &#10;    defaultExpandAll={$defaultExpandAll$} &#10;    defaultExpandedKeys={} &#10;    defaultCheckedKeys={} &#10;    defaultSelectedKeys={} &#10;    onExpand={} &#10;    onCheck={} &#10;    onSelect={} &#10;    onDragStart={} &#10;    onDragEnter={} &#10;    onDragOver={} &#10;    onDragLeave={} &#10;    onDrop={}&#10;&gt;&#10;    $END$&#10;&lt;/Tree&gt;&#10;"
+              description="UXCore Tree" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-tree&quot;" alwaysStopAt="true"/>
+        <variable name="showLine" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="showIcon" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="multiple" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="checkable" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="checkStrictly" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="draggable" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="defaultExpandAll" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-tree-node"
+              value="&lt;TreeNode&#10;    title=&quot;$title$&quot;&#10;/&gt;&#10;"
+              description="UXCore TreeNode" toReformat="true" toShortenFQNames="true">
+
+        <variable name="title" expression="" defaultValue="&quot;---&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-tree-select"
+              value="&lt;TreeSelect&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    filterTreeNode={} &#10;    showSearch={$showSearch$} &#10;    allowClear={$allowClear$} &#10;    placeholder=&quot;$placeholder$&quot; &#10;    searchPlaceholder=&quot;$searchPlaceholder$&quot; &#10;    labelInValue={$labelInValue$} &#10;    inputValue=&quot;$inputValue$&quot; &#10;    onClick={} &#10;    onChange={} &#10;    onSelect={} &#10;    onDeselect={} &#10;    onSearch={} &#10;    showArrow &#10;    dropdownMatchSelectWidth={$dropdownMatchSelectWidth$} &#10;    dropdownStyle={$dropdownStyle$} &#10;    onDropdownVisibleChange={} &#10;    notFoundContent=&quot;$notFoundContent$&quot; &#10;    showCheckedStrategy=&quot;$showCheckedStrategy$&quot; &#10;    treeCheckStrictly={$treeCheckStrictly$} &#10;    treeIcon={$treeIcon$} &#10;    treeLine={$treeLine$} &#10;    treeDataSimpleMode={$treeDataSimpleMode$} &#10;    treeDefaultExpandAll={$treeDefaultExpandAll$} &#10;    treeCheckable={$treeCheckable$} &#10;    treeNodeFilterProp=&quot;$treeNodeFilterProp$&quot; &#10;    treeNodeLabelProp=&quot;$treeNodeLabelProp$&quot; &#10;    resultsPanelAllClearBtn &#10;    resultsPanelTitle=&quot;$resultsPanelTitle$&quot; &#10;    resultsPanelTitleStyle={$resultsPanelTitleStyle$} &#10;    filterResultsPanel &#10;    locale=&quot;$locale$&quot; &#10;    dropdownClassName=&quot;$dropdownClassName$&quot; &#10;    transitionName=&quot;$transitionName$&quot; &#10;    choiceTransitionName=&quot;$choiceTransitionName$&quot; &#10;    maxTagTextLength={$maxTagTextLength$}&#10;/&gt;&#10;"
+              description="UXCore TreeSelect" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;uxcore-tree-select&quot;" alwaysStopAt="true"/>
+        <variable name="showSearch" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="allowClear" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="placeholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="searchPlaceholder" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="labelInValue" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="inputValue" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="dropdownMatchSelectWidth" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="dropdownStyle" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="notFoundContent" expression="" defaultValue="&quot;Not Found&quot;" alwaysStopAt="true"/>
+        <variable name="showCheckedStrategy" expression="" defaultValue="&quot;SHOW_CHILD&quot;" alwaysStopAt="true"/>
+        <variable name="treeCheckStrictly" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="treeIcon" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="treeLine" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="treeDataSimpleMode" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="treeDefaultExpandAll" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="treeCheckable" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="treeNodeFilterProp" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true"/>
+        <variable name="treeNodeLabelProp" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true"/>
+        <variable name="resultsPanelTitle" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="resultsPanelTitleStyle" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true"/>
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="dropdownClassName" expression="" defaultValue="&quot;no-svg&quot;" alwaysStopAt="true"/>
+        <variable name="transitionName" expression="" defaultValue="&quot;slideUp&quot;" alwaysStopAt="true"/>
+        <variable name="choiceTransitionName" expression="" defaultValue="&quot;uxcore-tree-select-selection__choice-zoom&quot;" alwaysStopAt="true"/>
+        <variable name="maxTagTextLength" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-transfer"
+              value="&lt;Transfer&#10;    height={$height$} &#10;    searchPlaceholder=&quot;$searchPlaceholder$&quot; &#10;    data={} &#10;    leftTitle=&quot;$leftTitle$&quot; &#10;    rightTitle=&quot;$rightTitle$&quot; &#10;    checkAllText=&quot;$checkAllText$&quot; &#10;    disabled={$disabled$} &#10;    showSearch &#10;    onChange={}&#10;/&gt;&#10;"
+              description="UXCore Transfer" toReformat="true" toShortenFQNames="true">
+
+        <variable name="height" expression="" defaultValue="&quot;280&quot;" alwaysStopAt="true"/>
+        <variable name="searchPlaceholder" expression="" defaultValue="&quot;请输入搜索内容&quot;" alwaysStopAt="true"/>
+        <variable name="leftTitle" expression="" defaultValue="&quot;未选中&quot;" alwaysStopAt="true"/>
+        <variable name="rightTitle" expression="" defaultValue="&quot;已选中&quot;" alwaysStopAt="true"/>
+        <variable name="checkAllText" expression="" defaultValue="&quot;全选&quot;" alwaysStopAt="true"/>
+        <variable name="disabled" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-totop"
+              value="&lt;Totop&#10;    prefixCls=&quot;$prefixCls$&quot; &#10;    to={$to$} &#10;    duration={$duration$} &#10;    distance={$distance$} &#10;    onTotopEnd={}&#10;/&gt;&#10;"
+              description="UXCore Totop" toReformat="true" toShortenFQNames="true">
+
+        <variable name="prefixCls" expression="" defaultValue="&quot;kuma-totop&quot;" alwaysStopAt="true"/>
+        <variable name="to" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true"/>
+        <variable name="duration" expression="" defaultValue="&quot;600&quot;" alwaysStopAt="true"/>
+        <variable name="distance" expression="" defaultValue="&quot;30&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-totop-box"
+              value="&lt;Totop.Box&#10;    className=&quot;$className$&quot; &#10;    label=&quot;$label$&quot; &#10;    icon={} &#10;    onClick={}&#10;/&gt;&#10;"
+              description="UXCore Totop.Box" toReformat="true" toShortenFQNames="true">
+
+        <variable name="className" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="label" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-uploader"
+              value="&lt;Uploader&#10;    locale=&quot;$locale$&quot; &#10;    autoPending &#10;    fileList={} &#10;    onChange={} &#10;    onError={} &#10;    isVisual={$isVisual$} &#10;    isOnlyImg={$isOnlyImg$}&#10;&gt;&#10;    $END$&#10;&lt;/Uploader&gt;&#10;"
+              description="UXCore Uploader" toReformat="true" toShortenFQNames="true">
+
+        <variable name="locale" expression="" defaultValue="&quot;zh-cn&quot;" alwaysStopAt="true"/>
+        <variable name="isVisual" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <variable name="isOnlyImg" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+
+    <template name="uxcore-uploader-dropzoom"
+              value="&lt;Uploader.Dropzoom /&gt;&#10;"
+              description="UXCore Uploader.Dropzoom" toReformat="true" toShortenFQNames="true">
+
+        <context>
+            <option name="HTML" value="true"/>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="JAVASCRIPT" value="true"/>
+            <option name="JAVASCRIPT_EXPRESSION" value="true"/>
+            <option name="JAVASCRIPT_JSX_HTML" value="true"/>
+            <option name="JAVASCRIPT_STATEMENT" value="true"/>
+            <option name="JAVASCRIPT_OTHER" value="true"/>
+            <option name="OTHER" value="true"/>
+        </context>
+     </template>
+</templateSet>
